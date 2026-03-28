@@ -51,6 +51,10 @@ In this project, I built a data analysis pipeline for used cars. I moved from ra
 
 ---
 
+## - **Kaggle Link:** [Used Cars Dataset](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
+
+---
+
 ## 👤 Author
 - **Raeed Alotaibi** - https://github.com/tuwra
 
