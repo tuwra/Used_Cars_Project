@@ -52,7 +52,7 @@ In this project, I built a data analysis pipeline for used cars in the USA. I mo
 ---
 
 ## 👤 Author
-- **[Raeed Alotaibi]** - []
+- **Raeed Alotaibi** - https://github.com/tuwra
 
 ---
-*This project was completed as part of the ML Foundations Bootcamp.*
+*This project was completed as part of the ML Foundations Bootcamp in Tuwaiq Academy.*
