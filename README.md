@@ -26,4 +26,4 @@ To run this project on your machine:
 
 1. Clone the repository:
    ```bash
-   git clone [YOUR_GITHUB_REPO_LINK]
+   git clone https://github.com/tuwra/Used_Cars_Project.git
