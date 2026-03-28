@@ -2,28 +2,57 @@
 **Student Capstone Project | ML Foundations Bootcamp**
 
 ## 📝 Project Overview
-This project is a complete data science pipeline that analyzes a massive dataset of used cars in the USA. The goal is to move from raw, messy data to meaningful insights, using Python, Pandas, and Matplotlib. 
-
-The project answers key questions about what factors (like age and mileage) drive car prices in the used market.
+In this project, I built a data analysis pipeline for used cars in the USA. I moved from raw, messy data to a clean dataset, created new features, and built a visual dashboard to find the best car deals.
 
 ---
 
 ## 📂 Project Structure
-The repository is organized as follows:
-
-- **`data/`**: Contains the `raw/` dataset and the `cleaned/` versions after processing.
-- **`01_cleaning.ipynb`**: Data cleaning, handling missing values, and outlier removal.
-- **`02_features.ipynb`**: Feature engineering, encoding, and scaling numerical columns.
-- **`03_eda.ipynb`**: Exploratory Data Analysis and the **Bonus Dashboard**.
-- **`04_math.ipynb`**: Manual mathematical calculations (Mean, STD, Cosine Similarity) using NumPy.
-- **`report.pdf`**: A 2-page summary report of the findings.
-- **`requirements.txt`**: List of Python libraries required to run the project.
+- **`01_cleaning.ipynb`**: Loading and cleaning the data (Phase 1).
+- **`02_features.ipynb`**: Creating new features and scaling data (Phase 2).
+- **`03_eda.ipynb`**: Visualizing data and building the **Bonus Dashboard** (Phase 3).
+- **`04_math.ipynb`**: Manual math calculations using NumPy (Phase 4).
+- **`data/`**: Folder for raw and cleaned CSV files.
+- **`report.pdf`**: Final 2-page written report.
+- **`requirements.txt`**: List of Python libraries used.
 
 ---
 
-## 🛠️ Installation & Setup
-To run this project on your machine:
+## 🚀 Pipeline Phases
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/tuwra/Used_Cars_Project.git
+### Phase 1: Cleaning
+- Removed missing values and duplicates.
+- Fixed data types (Year to **int**, Odometer to **float**).
+- Removed outliers (prices < $500 and above the 99th percentile).
+- **Result:** Clean dataset with **128,752** rows.
+
+### Phase 2: Feature Engineering
+- Created **Car Age** and **Mileage per Year**.
+- Applied **Ordinal Encoding** to the car condition.
+- Applied **One-Hot Encoding** to fuel and transmission types.
+- Used **StandardScaler** to normalize mileage and age.
+- Applied **Log Transformation** to the price for better distribution.
+
+### Phase 3: Visual Analysis 
+- Created a **4-Chart Dashboard** in one figure.
+- Analyzed price distribution, mileage impact, and brand performance.
+- Used a **Correlation Heatmap** to find the strongest price predictors.
+
+### Phase 4: Math Basics
+- Calculated Mean and Standard Deviation **manually** using NumPy.
+- Calculated **Cosine Similarity** between high-value and low-value cars.
+- Estimated the **Probability** of finding expensive cars (> $50,000).
+
+---
+
+## 📈 Key Findings
+- **Age is King:** Car age is the most significant factor affecting price.
+- **Condition vs. Mileage:** A car in "Excellent" condition can hold more value than a newer car with lower mileage.
+- **Brand Value:** Manufacturers like Toyota and Ford show stronger price retention over time.
+
+---
+
+## 👤 Author
+- **[Raeed Alotaibi]** - []
+
+---
+*This project was completed as part of the ML Foundations Bootcamp.*
