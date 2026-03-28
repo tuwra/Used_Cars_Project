@@ -2,7 +2,7 @@
 **Student Capstone Project | ML Foundations Bootcamp**
 
 ## 📝 Project Overview
-In this project, I built a data analysis pipeline for used cars in the USA. I moved from raw, messy data to a clean dataset, created new features, and built a visual dashboard to find the best car deals.
+In this project, I built a data analysis pipeline for used cars. I moved from raw, messy data to a clean dataset, created new features, and built a visual dashboard to find the best car deals.
 
 ---
 
